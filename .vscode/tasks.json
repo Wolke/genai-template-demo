@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run WebUI Dev Server",
+			"type": "shell",
+			"command": "cd webui && npm run dev",
+			"group": "none",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
